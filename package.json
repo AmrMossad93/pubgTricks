@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "PUBG Trick",
   "main": "index.js",
+  "homepage": "https://amrmossad93.github.io/pubgTricks",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d Dist"
   },
   "author": "Amr Mossad",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
